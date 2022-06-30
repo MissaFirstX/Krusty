@@ -1,0 +1,191 @@
+{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	font: bold 25px verdana, sans-serif;
+}
+h2{
+	font: bold 18px verdana, sans-serif;
+}
+
+hr{
+	border-top: 1px solid red;
+}
+
+header,section,footer,aside,nav,article{
+	display: block;
+}
+body{
+
+	text-align: center;
+	color: black;
+	background-color: orange;
+	border: black;
+	 
+	}
+
+a:visited, a:active, a:link {
+	color: black;
+	text-decoration: none; 
+}
+
+a:hover{
+
+	color: ghostwhite;
+}
+
+img.redimension {
+
+  width:640px;
+  height:427px;
+  border-radius: 15px;
+}
+
+#contenido{
+	font: bold 32px;
+	text-align: left;
+	margin: 15px auto;
+	width: 960px;
+	
+	}
+#cabecera{
+  font: bold 50px verdana, sans-serif;
+	color: #EF0000;
+	text-align: center;
+	background: darkcyan ;
+	padding: 21px;
+	border-radius: 10px 100px / 120px;
+	
+	-webkit-text-stroke: 4px black;
+
+}
+#menu{
+	background: orangered;
+	padding: 5px 15px;
+	border-radius: 10px 100px / 120px;
+	height: 40px;
+}
+#menu li{
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font: bold 14px verdana,sans-serif;
+	width: 120px;
+	text-align: center;
+	color: black;
+	background-color: rgb(229, 152, 102);
+	border-radius: 10px;
+
+}
+
+#menu li:hover{
+ background-color: orange;
+}
+#seccion{
+	
+	width: 660px;
+	margin: 20px ;
+	float: left;
+}
+#lateral{
+	width: 220px;
+	height: auto;
+	margin: 20px 0px;
+	float: right;
+	padding: 20px;
+	background: #C64C95;
+	color: white;
+}
+
+img.kk{
+	width: 220px;
+	height: auto;
+	float: none;
+	
+}
+
+img.cc{
+	width: 250px;
+	height: auto;
+	float: right;
+}
+
+img.br{
+	width: 220px;
+	height: auto;
+	float: none;
+	
+}
+
+#pie{
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid #000000;
+}
+
+.contacto h2, .contacto label {
+	font-family: Georgia, Times, "Times New Roman", sans-serif;
+}
+
+.form_hint, .requeridos{
+	font-size: 11px;
+}
+
+.contacto ul{
+	width: 750px;
+	list-style-type: none;
+	list-style-position: outside;
+	margin: 0px;
+	padding: 0px;
+}
+.contacto li{
+	padding: 12px;
+	border-bottom: 1px solid #eee;
+	position: relative;
+}
+.contacto  li:first-child, .contacto li:last-child{
+	border-bottom: 1px solid #777;
+}
+.contacto  h2{
+	margin: 0px;
+	display: inline;
+}
+.requeridos{
+	color: #d45252;
+	margin: 5px 0 0 0;
+	display: inline;
+	float: right;
+}
+.contacto label{
+	width: 150px;
+	margin-top: 3px;
+	display: inline-block;
+	float: left;
+	padding: 3px;
+}
+.contacto input{
+	height: 20px;
+	width: 220px;
+	padding: 5px 8px;
+}
+.contacto textarea{
+	padding: 8px;
+	width: 300px;
+}
+
+.contacto button{
+	margin-left: 156px;
+	background: blue;
+	color: white;
+	border-radius: 5px;
+	height: 30px;
+	width: 160px
+}
+.contacto input, .contacto textarea{
+	border: 1px solid #aaa;
+	box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+	border-radius: 5px;
+}
+
